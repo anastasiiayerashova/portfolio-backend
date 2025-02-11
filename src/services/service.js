@@ -19,9 +19,9 @@ export const sendEmailService = async ({ email, message }) => {
 
     try {
         await sendEmail({
-            from: getEnvVar(SMTP.SMTP_TO),
-            replyTo: email,
+            from: email,
             bcc: email,
+            replyTo: email,
             to: getEnvVar(SMTP.SMTP_TO),
             subject: 'New message from Portfolio website',
             html
