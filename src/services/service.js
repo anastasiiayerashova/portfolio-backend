@@ -6,11 +6,11 @@ import createHttpError from "http-errors"
 import { getEnvVar } from "../utils/getEnvVar.js"
 import { SMTP } from "../constants/index.js"
 
-const templateSource = fs.readFileSync(path.join('src', 'templates', 'emailTemplate'), 'utf-8')
-
-const template = Handlebars.compile(templateSource.toString())
+const templateSource = fs.readFileSync(path.join('src', 'templates', 'emailTemplate.html'), 'utf-8')
 
 export const sendEmailService = async ({ email, message }) => {
+
+    const template = Handlebars.compile(templateSource.toString())
 
     const html = template({
         email: email,
@@ -20,7 +20,7 @@ export const sendEmailService = async ({ email, message }) => {
     try {
         await sendEmail({
             from: email,
-            to: getEnvVar(SMTP.SMTP_TO),
+            to: 'yerashova.a@gmail.com',
             subject: 'New message from Portfolio website',
             html
         })
