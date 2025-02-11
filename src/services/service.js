@@ -19,8 +19,10 @@ export const sendEmailService = async ({ email, message }) => {
 
     try {
         await sendEmail({
-            from: email,
-            to: 'yerashova.a@gmail.com',
+            from: getEnvVar(SMTP.SMTP_TO),
+            replyTo: email,
+            bcc: email,
+            to: getEnvVar(SMTP.SMTP_TO),
             subject: 'New message from Portfolio website',
             html
         })
