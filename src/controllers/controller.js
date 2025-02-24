@@ -22,9 +22,7 @@ const getAllProjectsController = async (req, res) => {
     res.json({
         status: 200,
         message: 'Successfully received list of all projects',
-        data: {
-            projects
-        }
+        data: projects
     })
 }
 
