@@ -1,8 +1,9 @@
 import express from 'express'
 import { validateBody } from '../middlewares/validateBody.js'
 import { validationSchema } from '../validation/validationSchema.js'
-import { controller } from '../controllers/controller.js'
+import projectsControllers from '../controllers/controller.js'
 
 export const portfolioRouter = express.Router()
 
-portfolioRouter.post('/backend', validateBody(validationSchema), controller)
+portfolioRouter.post('/send-email', validateBody(validationSchema), projectsControllers.controller)
+portfolioRouter.get('/projects', projectsControllers.getAllProjectsController)
