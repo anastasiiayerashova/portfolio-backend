@@ -1,0 +1,89 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/v1735645417/film_finder_yxgxvs.jpg",
+    "url": "https://goit-react-hw-05-mu-gold.vercel.app/",
+    "title": "FilmFinder",
+    "description": "It is a Single-Page-Application where I utilized Redux for state management to ensure seamless application performance and integrated Axios to fetch data from an external API, displaying real-time information about trending movies",
+    "skills": [
+      "React",
+      "Redux",
+      "REST API",
+      "Redux Toolkit"
+    ],
+    "alt": "filmfinder",
+    "id": "1"
+  },
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/v1735645474/clock_tt0afn.jpg",
+    "url": "https://anastasiiayerashova.github.io/project-WebWizard1/",
+    "title": "WatchCharm",
+    "description": "Led a team in the WatchCharm project. Oversaw project deployment on GitHub, managed version control, and resolved merge conflicts, also enhanced website performance by optimizing images and minimizing CSS and JavaScript files",
+    "skills": [
+      "JavaScript",
+      "REST API",
+      "AJAX",
+      "HTML5",
+      "CSS3"
+    ],
+    "alt": "watchcharm",
+    "id": "2"
+  },
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/c_thumb,w_200,g_face/v1735645519/portfolio_2_vtbfd7.jpg",
+    "url": "https://alex-usenko325.github.io/project-Dream4ce/",
+    "title": "Portfolio website",
+    "description": "Developed with team a responsive Portfolio website with features like dark mode toggle, and seamless integration with Local Storage for user preferences. Implemented a registration form with API integration for handling user submissions and ensuring secure data transfer",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JS",
+      "AJAX",
+      "REST API",
+      "AXIOS"
+    ],
+    "alt": "portfolio",
+    "id": "3"
+  },
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/v1735645616/recipes_fu9ye7.jpg",
+    "url": "https://recipes-finder-omega.vercel.app/",
+    "title": "RadiantRecipes",
+    "description": "I developed a Single-Page Application using Redux for state management and Axios for fetching real-time recipe data. The app ensures smooth performance and scalability, offering users an intuitive interface to explore recipes",
+    "skills": [
+      "React",
+      "Redux",
+      "React Router",
+      "REST API",
+      "Redux Toolkit"
+    ],
+    "alt": "radiant recipes",
+    "id": "4"
+  },
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/v1735645662/phonebook_j7jksi.jpg",
+    "url": "https://goit-react-hw-08-three-wheat.vercel.app/",
+    "title": "PhoneBook",
+    "description": "Developed a simple phonebook connected to a Swagger backend API, enabling users to sign up, log in, add, filter, and edit contacts, also implemented JWT for secure authorization and data protection",
+    "skills": [
+      "REACT",
+      "REDUX",
+      "REDUX-PERSIST",
+      "JWT"
+    ],
+    "alt": "phonebook",
+    "id": "5"
+  },
+  {
+    "image": "https://res.cloudinary.com/dzhzdqf10/image/upload/v1735645917/counter_vhjjc6.jpg",
+    "url": "https://tasks-counter-react.vercel.app/",
+    "title": "TaskCounter",
+    "description": "TaskCounter – a simple and efficient task management application. Add, edit, and delete your tasks, filter them by status (active or completed), and stay on top of your to-do list. With an intuitive interface, TaskCounter helps you plan effectively and achieve your goals",
+    "skills": [
+      "REACT",
+      "REDUX",
+      "REDUX TOOLKIT"
+    ],
+    "alt": "taskcounter",
+    "id": "6"
+  }
+]
